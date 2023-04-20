@@ -25,6 +25,7 @@
 .bg-violet{
     background-color: rgba(151,146,228,255);
     color: #fff;
+    padding: 3% 15%;
 }
 .space-bet{
     justify-content: space-between;
@@ -252,6 +253,141 @@ header{
     margin-top: 7rem;
   }
 }
+
+
+.third-section{
+    text-align: center;
+}
+
+.third-section h1{
+    font-size: 30px;
+    color: rgba(151,146,228,255);
+    margin: 2rem 0;
+}
+
+.card{
+    background-color: rgba(151,146,228,255);
+    border-radius: 20px;
+    padding: 2%;
+    border: 1px solid red;
+    margin: 2rem 0;
+    color: #fff;
+    padding: 1rem 1rem;
+}
+
+.left-card{
+    width: 100%; 
+    text-align: -webkit-center;
+}
+
+.testimonial-image{
+    background-image: url(img/testimonial1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+
+.right-card p{
+    margin: 0 0 2rem;
+    line-height: 24px;
+}
+
+.marks{
+    color: #fff;
+    font-size: 25px;
+}
+
+
+@media (min-width: 480px) {
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .left-card{
+    width: 30%;
+  }
+  .right-card{
+    width: 70%;
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+  }
+
+  @media (min-width: 768px) {
+    .left-card{
+        width: 20%;
+      }
+      .right-card{
+        width: 80%;
+  }
+}
+
+
+
+.fourth-section{
+    text-align: center;
+    padding-top: 2.5rem;
+    background-color: rgba(151,146,228,255);
+    color: #fff;
+}
+.fourth-section h1{
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+
+.benefits-card{
+    color: black;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+.benefits-card h1{
+    color: rgba(151,146,228,255);
+    font-size: 45px;
+}
+.benefits-card h3{
+    color: rgba(151,146,228,255);
+    font-size: 28px;
+}
+.benefits-card p{
+    margin: 22px 0;
+    line-height: 25px;
+}
+
+@media (min-width: 480px) {
+
+    .benefits{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits-card{
+        width: calc(100% / 2 - 20px);
+
+    }
+  
+}
+
+@media (min-width: 768px) {
+
+    .benefits-card{
+        width: calc(100% / 3 - 20px);
+    }
+  
+}
+
+
+
 
 
 

@@ -11,11 +11,15 @@
 .button{
     background-color: #fff;
     padding: 5px 10px;
+    border-radius: 20px;
+    color: black;
 }
 .space-bet{
     justify-content: space-between;
 }
 
+a{text-decoration: none;}
+ul{list-style-type: none;}
 
 .container{
     width: 95%;
@@ -24,22 +28,50 @@
 
 header{
     background-color: rgba(0,132,253,255);
-    padding: 2% 1.5%;
+    padding: .8rem 0;
+    color: #fff;
 }
 
-.logo img{
-    vertical-align: middle;
-}
-
-.h-menu{
-    padding-top: 5px;
-}
-
-.icon-bar{
-    width: 22px;
-    height: 2px;
-    background-color: #fff;
-    margin-top: 5px;
-    border-radius: 1px;
+.header-icon-bar{
     display: block;
+    padding-top: 11px;
 }
+
+.header-icon-bar span{
+    display: block;
+    height: 3px;
+    width: 30px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.header-menu{
+    display: none;
+}
+
+.header-menu span{
+    margin-left: 1.5rem;
+    margin-top: 8px;
+}
+.header-menu ul{
+    align-items: center;
+}
+.header-menu ul li{
+    font-size: 17px;
+    margin-left: 1.5rem;
+    padding-top: 8px;
+}
+
+
+@media (min-width: 768px) {
+    .header-icon-bar{
+        display: none;
+    }
+
+    .header-menu{
+        display: block;
+    }
+
+  
+}
+

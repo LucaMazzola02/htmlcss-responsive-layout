@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.button{
+    background-color: #fff;
+    padding: 5px 10px;
+}
+.space-bet{
+    justify-content: space-between;
+}
+
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(0,132,253,255);
+    padding: 2% 1.5%;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+.h-menu{
+    padding-top: 5px;
+}
+
+.icon-bar{
+    width: 22px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 1px;
+    display: block;
+}

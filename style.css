@@ -450,6 +450,39 @@ header{
       }
 }
 
+.sixth-section{
+    padding: 3rem 0 1rem;
+    text-align: center;
+}
+
+.sixth-section h4{
+    color: rgba(205,204,242,255);
+    font-size: 24px;
+}
+
+.sixth-section h2{
+    font-size: 30px;
+    margin: 1.3rem 0;
+}
+
+.sixth-section h1{
+    font-size: 50px;
+    color: rgba(253,193,95,255);
+}
+
+.sixth-section p{
+    margin: 2.3rem 0;
+}
+
+.get-started{
+    background-color: #fff;
+    color: rgba(151,146,228,255);
+    padding: 12px 40px;
+    border-radius: 20px;
+}
+
+
+
 
 
 
